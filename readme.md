@@ -2,7 +2,7 @@
 
 ### (planck)[https://github.com/qmk/qmk_firmware/tree/master/keyboards/planck]
 ./planck
-(Photos)[https://imgur.com/a/taMeYja]
+[Photos](https://imgur.com/a/taMeYja)
 - Slim Tiger Bocote Wood Case by /u/justinyhuang ($110)
 - OLKB Planck v5 ($40)
 - OLKB Brass Top Plate ($20)
