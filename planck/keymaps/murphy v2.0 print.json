@@ -1,0 +1,125 @@
+[
+  {
+    "name": "Murphy",
+    "switchMount": "cherry",
+    "plate": false
+  },
+  [
+    {
+      "c": "#ADADAD",
+      "a": 7
+    },
+    "Esc\n\n\n\nLED",
+    {
+      "c": "#CDC1B0",
+      "t": "#000000\n#3f76d4\n#d67509",
+      "a": 4
+    },
+    "\n%\n«\n\nF1\n\n\n\n\nQ",
+    "\n^\n»\n\nF2\n\n\n\n\nW",
+    "\n\n(\n\nF3\n\n\n\n\nE",
+    "\n\n)\n\nF4\n\n\n\n\nR",
+    "\n\n|\n\nF5\n\n\n\n\nT",
+    "\n\n@\n\nF6\n\n\n\n\nY",
+    "\n\n#\n\nF7\n\n\n\n\nU",
+    "\n7\n$\n\nF8\n\n\n\n\nI",
+    "\n8\n\n\nF9\n\n\n\n\nO",
+    "\n9\n\n\nF10\n\n\n\n\nP",
+    {
+      "c": "#ADADAD"
+    },
+    "\n\ndel\n\n\n\n\n\n\nBS"
+  ],
+  [
+    {
+      "t": "#000000",
+      "a": 7
+    },
+    "Tab",
+    {
+      "c": "#CDC1B0",
+      "t": "#000000\n#3f76d4\n#d67509",
+      "a": 4
+    },
+    "\n\n<\n\nF11\n\n\n\n\nA",
+    "\nend\n>\n\nF12\n\n\n\n\nS",
+    "\nhome\n[\n\n`\n\n\n\n\nD",
+    "\npd\n]\n\nesc\n\n\n\n\nF",
+    "\npu\n-\n\n~\n\n\n\n\nG",
+    "\n\n&larr;\n\ncad\n\n\n\n\nH",
+    "\n\n&darr;\n\ncse\n\n\n\n\nJ",
+    "\n4\n&uarr;\n\nwin\n\n\n\n\nK",
+    "\n5\n&rarr;\n\n\n\n\n\n\nL",
+    "\n6\n\n\n\n\n\n\n\n\"\n'",
+    {
+      "t": "#000000",
+      "a": 7
+    },
+    ""
+  ],
+  [
+    {
+      "c": "#ADADAD"
+    },
+    "Shift",
+    {
+      "c": "#CDC1B0",
+      "t": "#000000\n#3f76d4\n#d67509",
+      "a": 4
+    },
+    "\n/\n\\\n\n\n\n\n\n\nZ",
+    "\n*\n/\n\nplay\n\n\n\n\nX",
+    "\n-\n{\n\nprev\n\n\n\n\nC",
+    "\n+\n}\n\nnext\n\n\n\n\nV",
+    "\n\n_\n\npause\n\n\n\n\nB",
+    "\n\n=\n\nvol-\n\n\n\n\nN",
+    "\n\n<\n\nvol+\n\n\n\n\nM",
+    "\n1\n>\n\nmute\n\n\n\n;\n,",
+    "\n2\n&\n\n\n\n\n\n:\n.",
+    "\n3\n|\n\n\n\n\n\n!\n?",
+    {
+      "c": "#ADADAD",
+      "t": "#000000",
+      "a": 7
+    },
+    "Return"
+  ],
+  [
+    "Fn",
+    "Ctrl",
+    "Alt",
+    "Meta",
+    {
+      "c": "#9FACBF"
+    },
+    "&dArr;",
+    {
+      "c": "#CDC1B0",
+      "w": 2
+    },
+    "#querty",
+    {
+      "c": "#E5A65B"
+    },
+    "&uArr;",
+    {
+      "c": "#ADADAD",
+      "t": "#000000\n#3f76d4\n#d67509",
+      "a": 4
+    },
+    "\n0\nhome\n\n\n\n\n\n\n&larr;",
+    {
+      "f2": 9
+    },
+    "\n.\npd\n\n\n\n\n\n\n&darr;",
+    {
+      "t": "#000000\n\n#d67509",
+      "f": 3
+    },
+    "\n\npu\n\n\n\n\n\n\n&uarr;",
+    {
+      "f": 3
+    },
+    "\n\nend\n\n\n\n\n\n\n&rarr;"
+  ]
+]
