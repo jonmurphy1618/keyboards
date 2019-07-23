@@ -43,7 +43,7 @@
 
 
 ## Artisan Cap Casting
-So far this hasn't been very successful. Below are a few practice sculptures that I didn't want to continue with silicon casting.
+So far this hasn't been very successful. Below are a few practice sculptures that I didn't want to continue with silicon casting.  
 ![Photo](./casting/photo.jpg)
 - [techkeys](https://techkeys.us/products/synth) :~$ynth 2.0 ($105)
 - [Sculpting Tools](https://www.amazon.com/SE-DD312-12-Piece-Stainless-Carvers/dp/B000SVRSRY/) ($10)
