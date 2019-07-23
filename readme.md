@@ -4,7 +4,7 @@
 - [Artisan Cap Casting](#artisan-cap-casting)
 
 ## Planck Build
-![Photo](photo.jpg)
+![Photo](./planck/photo.jpg)
 - [Slim Tiger Bocote Wood Case](https://imgur.com/a/taMeYja) by [/u/justinyhuang](https://old.reddit.com/u/justinyhuang) :star::star::star::star::star: ($110)
 - OLKB Planck v5 ($40)
 - OLKB Brass Top Plate ($20)
@@ -16,12 +16,12 @@
 - TBD Brass Homing Caps by [Salvun](https://instagram.com/salvun/)
 - TBD MX lock switch
 
-### References
-- [Keymap](./planck/keymaps/jonmurphy1618/murphy v2.1.png)  
+#### References
+- [Keymap](./planck/)  
 - [QMK Plank Link](https://github.com/qmk/qmk_firmware/tree/master/keyboards/planck)  
 
 ## Crkbd Build
-![Photo](photo.jpg)
+![Photo](./crkbd/photo.jpg)
 - [Keyhive.xyz](https://keyhive.xyz/) choc helidox ($20)
   - 2x pcbs, 2x trrs jacks, 42x hotswap sockets
 - [Keyhive.xyz](https://keyhive.xyz/) 2x Pro Micros ($12)
@@ -33,9 +33,10 @@
 - PCB Assembly Service by [/u/agent6078](https://old.reddit.com/user/agent6078) :star::star::star::star::star: ($25)
 - [NovelKeys](https://novelkeys.xyz/) Black Choc Keycaps ($15)
 - AliExpress Clear Choc keycaps ($16)
+- TBD standoffs, acrylic plates, feet
 
-### References
-- [Keymap](./crkbd/keymaps)
+#### References
+- [Keymap](./crkbd/)
 - [QMK Crkbd Link](https://github.com/qmk/qmk_firmware/tree/master/keyboards/crkbd)
 - [Crkbd by foostan](https://github.com/foostan/crkbd)
 
