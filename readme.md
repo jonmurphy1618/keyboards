@@ -1,22 +1,22 @@
 ## Keyboard Builds
 - plank
 - crkbd
-- casting artisan caps
 
-### [planck](https://github.com/qmk/qmk_firmware/tree/master/keyboards/planck)
-![Photos](https://imgur.com/a/taMeYja)
-- Slim Tiger Bocote Wood Case by /u/justinyhuang ($110)
+### Planck
+![Photo](photo.jpg)
+- [Slim Tiger Bocote Wood Case](https://imgur.com/a/taMeYja) by [/u/justinyhuang](https://old.reddit.com/u/justinyhuang) ($110)
 - OLKB Planck v5 ($40)
 - OLKB Brass Top Plate ($20)
 - R8 Purple Zealio 67g ($45)
 - R8 Zealencio Clips ($45)
 - 1.8mm Golden Yellow LED w/ Zeal SIP Sockets ($30)
-- Texas Tea Fugu & Texas Tea Bomb King by /u/Eat_the_food
+- Texas Tea Fugu & Texas Tea Bomb King by [/u/Eat_the_food](https://old.reddit.com/user/eat_the_food)
 - Custom Brass Braid USB Cable by me 
 - TBD Brass Homing Caps by [Salvun](https://instagram.com/salvun/)
 - TBD MX lock switch
 
 [keymap](./planck/keymaps/jonmurphy1618/murphy v2.1.png)
+[QMK Plank Link](https://github.com/qmk/qmk_firmware/tree/master/keyboards/planck)
 
 ### crkbd
 
