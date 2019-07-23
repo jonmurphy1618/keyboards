@@ -2,7 +2,7 @@
 aka corne aka helidox
 
 ### keymap
-![keymap images](port-o-murph.jpg)
+![keymap images](keymap.jpg)
 
 #### features
 - full numpad
