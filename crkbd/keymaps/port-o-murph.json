@@ -1,0 +1,101 @@
+[
+  {
+    "name": "Port-O-Murph"
+  },
+  [
+    {
+      "t": "#0000ff\n#0000ff\n#ff0000\n#ff0000\n#000000\n\n#0000ff\n#ff0000\n#000000\n#000000\n#000000",
+      "f": 2
+    },
+    "\n\n!\n\nF1\n\n\n1\nQ\nq",
+    "\n\n@\n\nF2\n\n\n2\nW\nw",
+    "\n\n#\n\nF3\n\n[\n3\nE\ne",
+    "\n\n$\n\nF4\n\n]\n4\nR\nr",
+    "\n\n%\n\nF5\n\n\n5\nT\nt",
+    {
+      "x": 2
+    },
+    "\n\n^\n\nF6\n\n\n6\nY\ny",
+    "\n\n&\n\nF7\n\n\n7\nU\nu",
+    "\n\n*\n\nF8\n\n\n8\nI\ni",
+    "\n\n(\n\nF9\n\n\n9\nO\no",
+    "\n\n)\n\nF10\n\n\n0\nP\np"
+  ],
+  [
+    {
+      "t": "#000000\n#000000\n\n\n#000000\n\n#000000",
+      "a": 5
+    },
+    "A\n\n\n\nF11\n\na",
+    {
+      "t": "#0000ff\n#0000ff\n#ff0000\n#ff0000\n#000000\n\n#0000ff\n#ff0000\n#000000\n#000000\n#000000",
+      "a": 4
+    },
+    "\n\n\nend\nF12\n\n\n\nS\ns",
+    "\n\n\nhome\n\n\n{\n\nD\nd",
+    "\n\n\nPDown\nesc\n\n}\n\nF\nf",
+    "\n\n\nPUp\n\n\n\n\nG\ng",
+    {
+      "x": 2
+    },
+    "\n\n|\n\ntaskmgr\n\n&larr;\n\\\nH\nh",
+    "\n\n~\n\nctrlaltdel\n\n&darr;\n`\nJ\nj",
+    "\n\n:\n\nwindow\n\n&uarr;\n;\nK\nk",
+    "\n\n_\n\n\n\n&rarr;\n-\nL\nl",
+    "\n\n+\n\n\n\n\n=\n\"\n'"
+  ],
+  [
+    {
+      "t": "#000000\n#000000\n\n\n#000000\n\n#000000",
+      "a": 5
+    },
+    "Z\n\n\n\n\n\nz",
+    "X\n\n\n\n\n\nx",
+    "C\n\n\n\n\n\nc",
+    "V\n\n\n\n\n\nv",
+    "B\n\n\n\n\n\nb",
+    {
+      "h": 2
+    },
+    "enter\n*tab\n\n\n\n\nsp",
+    {
+      "t": "#000000\n\n\n\n#000000",
+      "a": 7,
+      "h": 2
+    },
+    "shift",
+    {
+      "t": "#000000\n#000000\n\n\n#000000\n\n#000000",
+      "a": 5
+    },
+    "N\n\n\n\n\n\nn",
+    "M\n\n\n\n\n\nm",
+    "<\n\n\n\n\n\n,",
+    ">\n\n\n\n\n\n.",
+    "?\n\n\n\n\n\n/"
+  ],
+  [
+    {
+      "x": 3,
+      "t": "#000000\n#000000\n\n\n\n\n#000000"
+    },
+    "alt\n\n\n\n\n\nctrl",
+    {
+      "t": "#ff0000",
+      "a": 7,
+      "f": 3
+    },
+    "&uArr;",
+    {
+      "x": 2,
+      "t": "#0000ff"
+    },
+    "&dArr;",
+    {
+      "t": "#0000ff\n\n#ff0000\n\n\n\n\n\n#000000",
+      "a": 6,
+      "f": 2
+    },
+    "\n\ndel\n\n\n\n\n\nbs"
+  ]
+]
