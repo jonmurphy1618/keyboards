@@ -1,8 +1,9 @@
-## Keyboard Builds
-- plank
-- crkbd
+## TOC
+- [Planck Build](#planck-build)
+- [Crkbd Build](#crkbd-build)
+- [Artisan Cap Casting](#artisan-cap-casting)
 
-### Planck
+## Planck Build
 ![Photo](photo.jpg)
 - [Slim Tiger Bocote Wood Case](https://imgur.com/a/taMeYja) by [/u/justinyhuang](https://old.reddit.com/u/justinyhuang) ($110)
 - OLKB Planck v5 ($40)
@@ -15,11 +16,17 @@
 - TBD Brass Homing Caps by [Salvun](https://instagram.com/salvun/)
 - TBD MX lock switch
 
-[keymap](./planck/keymaps/jonmurphy1618/murphy v2.1.png)
-[QMK Plank Link](https://github.com/qmk/qmk_firmware/tree/master/keyboards/planck)
+### References
+- [Keymap](./planck/keymaps/jonmurphy1618/murphy v2.1.png)  
+- [QMK Plank Link](https://github.com/qmk/qmk_firmware/tree/master/keyboards/planck)  
 
-### crkbd
+## Crkbd Build
+![Photo](photo.jpg)
+- parts list
 
+### References
+- [Keymap]()
+- [QMK Crkbd Link]()
 
 
 
@@ -153,6 +160,3 @@ https://www.cozcaps.com/about/
 Coz uses PinkySil silicone, Smooth-On 202 Clear Resin, and more pigments than can be named; from translucent Barnes Pigments, to Automative Pearlescent Powders, to Thermochromatic Powders and everything inbetween.
 ```
 
-## References
-- (QMK Firmware)[https://docs.qmk.fm/]
-- (Keyboard Layout Editor)[http://www.keyboard-layout-editor.com/]
