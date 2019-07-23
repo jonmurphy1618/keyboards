@@ -2,7 +2,7 @@
 rev5 version created and sold by OLKB
 
 ### keymap
-![keymap images](jonmurphy1618.jpg)
+![keymap images](keymap.jpg)
 
 #### features
 - full numpad
