@@ -1,3 +1,7 @@
+# Port-O-Murph
+Possible future build. The goal is wireless BLE with split 36-keys and choc keys.
+
+
 # Inspiration
 minidox
 -layout (http://www.keyboard-layout-editor.com/#/gists/05a3120afd0e9ee2d09efd809291f6e5)
