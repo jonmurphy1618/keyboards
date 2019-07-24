@@ -35,4 +35,5 @@ make planck/rev5:<my_keymap_name>
 make planck/rev5:<my_keymap_name>:dfu
 ```
 
-6. Done! Test any changes to confirm it's working as intended.
+6. Done! Test any changes to confirm it's working as intended. Please considering sharing your keymap on qmk's [github](https://github.com/qmk/qmk_firmware/tree/master/keyboards/planck/keymaps). 
+It's also a great place to browse keymaps and find new tricks.
