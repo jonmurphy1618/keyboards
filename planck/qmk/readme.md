@@ -21,9 +21,9 @@ Copy custom keymap folder to the qmk firmware directory.
 cp ~/keyboards/planck/qmk/* ./<my_keymap__name>/
 ```
 The following files allow for customization:
-- config.h
-- keymap.c
-- rules.mk
+ - config.h
+ - keymap.c
+ - rules.mk
 
 4. Build custom firmware.  
 ```
