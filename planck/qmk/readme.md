@@ -16,12 +16,10 @@ make planck/rev5:default
 ```  
 cd qmk_firmware/keyboards/planck/keymaps
 ```
-
 Copy custom keymap folder to the qmk firmware directory.  
 ```
 cp ~/keyboards/planck/qmk/* ./<my_keymap__name>/
 ```
-
 The following files allow for customization:
 - config.h
 - keymap.c
