@@ -23,3 +23,4 @@ aka corne aka helidox
 - hold/tap inspired by [norman's minidox keymap](https://github.com/qmk/qmk_firmware/tree/master/keyboards/minidox/keymaps/norman)
 - [keyboard layout editor](http://www.keyboard-layout-editor.com/#/)
 - [qmk docs](https://docs.qmk.fm/)
+- [crkbd defaults](https://github.com/qmk/qmk_firmware/tree/master/keyboards/crkbd)

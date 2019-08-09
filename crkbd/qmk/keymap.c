@@ -31,12 +31,13 @@ enum custom_keycodes {
   LOWER,
   RAISE,
   ADJUST,
-  BACKLIT,
   RGBRST
 };
 
 enum macro_keycodes {
-  KC_SAMPLEMACRO,
+  COMMA_SCOLON,
+  DOT_COLON,
+  QUES_EXCL,
 };
 
 #define KC______ KC_TRNS
@@ -45,64 +46,68 @@ enum macro_keycodes {
 #define KC_RAISE RAISE
 #define KC_RST   RESET
 #define KC_LRST  RGBRST
-#define KC_LTOG  RGB_TOG
-#define KC_LHUI  RGB_HUI
+#define KC_LTOG  RGB_TOG  //toggle rgb
+#define KC_LHUI  RGB_HUI  //hue
 #define KC_LHUD  RGB_HUD
-#define KC_LSAI  RGB_SAI
+#define KC_LSAI  RGB_SAI  //saturation
 #define KC_LSAD  RGB_SAD
-#define KC_LVAI  RGB_VAI
+#define KC_LVAI  RGB_VAI  //value(brightness)
 #define KC_LVAD  RGB_VAD
-#define KC_LMOD  RGB_MOD
-#define KC_CTLTB CTL_T(KC_TAB)
-#define KC_GUIEI GUI_T(KC_LANG2)
-#define KC_ALTKN ALT_T(KC_LANG1)
+#define KC_LMOD  RGB_MOD  //mode
+#define KC_LSPI  RGB_SPI  //speed
+#define KC_LSPD  RGB_SPD
+#define KC_CAD LCA(KC_DEL) //control-alt-delete
+#define KC_CSE LCTL(LSFT(KC_ESC)) //control-shift-esc
+
+// LT(layer, kc) hold for layer, tap for kc
+// MT(mod, kc) hold for mod, tap for kc
 
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   [_QWERTY] = LAYOUT_kc( \
   //,-----------------------------------------.                ,-----------------------------------------.
         ESC,     Q,     W,     E,     R,     T,                      Y,     U,     I,     O,     P,  BSPC,\
   //|------+------+------+------+------+------|                |------+------+------+------+------+------|
-      CTLTB,     A,     S,     D,     F,     G,                      H,     J,     K,     L,  SCLN,  QUOT,\
+        TAB,     A,     S,     D,     F,     G,                      H,     J,     K,     L,  QUOT,  ENT,\
   //|------+------+------+------+------+------|                |------+------+------+------+------+------|
-       LSFT,     Z,     X,     C,     V,     B,                      N,     M,  COMM,   DOT,  SLSH,  RSFT,\
+       LSFT,     Z,     X,     C,     V,     B,                      N,     M,  COMMA_SCOLON,   DOT_COLON,  QUES_EXCL,  RSFT,\
   //|------+------+------+------+------+------+------|  |------+------+------+------+------+------+------|
-                                  GUIEI, LOWER,   SPC,      ENT, RAISE, ALTKN \
-                              //`--------------------'  `--------------------'
-  ),
-
-  [_LOWER] = LAYOUT_kc( \
-  //,-----------------------------------------.                ,-----------------------------------------.
-        ESC,     1,     2,     3,     4,     5,                      6,     7,     8,     9,     0,  BSPC,\
-  //|------+------+------+------+------+------|                |------+------+------+------+------+------|
-      CTLTB,    F1,    F2,    F3,    F4,    F5,                     F6,    F7,    F8,    F9,   F10, XXXXX,\
-  //|------+------+------+------+------+------|                |------+------+------+------+------+------|
-       LSFT,   F11,   F12,   F13,   F14,   F15,                    F16,   F17,   F18,   F19,   F20, XXXXX,\
-  //|------+------+------+------+------+------+------|  |------+------+------+------+------+------+------|
-                                  GUIEI, LOWER,   SPC,      ENT, RAISE, ALTKN \
+            MT(LGUI,ENT), LT(LOWER,ESC), MT(LSFT,SPC),   MT(LCTL,BSPC), LT(RAISE,TAB), MT(LALT, ENT) \
                               //`--------------------'  `--------------------'
   ),
 
   [_RAISE] = LAYOUT_kc( \
   //,-----------------------------------------.                ,-----------------------------------------.
-        ESC,  EXLM,    AT,  HASH,   DLR,  PERC,                   CIRC,  AMPR,  ASTR,  LPRN,  RPRN,  BSPC,\
+      XXXXX, XXXXX, XXXXX,  LBRC,  RBRC, GRAVE,                     AT,  HASH,DOLLAR, XXXXX, XXXXX,   DEL,\
   //|------+------+------+------+------+------|                |------+------+------+------+------+------|
-      CTLTB, XXXXX, XXXXX, XXXXX, XXXXX, XXXXX,                   MINS,   EQL,  LCBR,  RCBR,  PIPE,   GRV,\
+      XXXXX,  LABK,  RABK,  LPRN,  RPRN, TILDE,                   LEFT,  DOWN,    UP,  RGHT, XXXXX, XXXXX,\
   //|------+------+------+------+------+------|                |------+------+------+------+------+------|
-       LSFT, XXXXX, XXXXX, XXXXX, XXXXX, XXXXX,                   UNDS,  PLUS,  LBRC,  RBRC,  BSLS,  TILD,\
+      XXXXX,  BSLS,  PSLS,  LCBR,  RCBR,  UNDS,                  EQUAL,  LABK,  RABK,  AMPR,  PIPE, XXXXX,\
   //|------+------+------+------+------+------+------|  |------+------+------+------+------+------+------|
-                                  GUIEI, LOWER,   SPC,      ENT, RAISE, ALTKN \
+                             XXXXX, MO(ADJUST), XXXXX,   XXXXX, XXXXX, XXXXX \
+                              //`--------------------'  `--------------------'
+  ),
+
+  [_LOWER] = LAYOUT_kc( \
+  //,-----------------------------------------.                ,-----------------------------------------.
+      XXXXX, XXXXX, XXXXX,  HOME,  PGUP, XXXXX,                     P7,    P8,    P9,   DEL, XXXXX, XXXXX,\
+  //|------+------+------+------+------+------|                |------+------+------+------+------+------|
+      XXXXX,  PERC,  CIRC,   END,  PGDN, XXXXX,                     P4,    P5,    P6,   ENT, XXXXX, XXXXX,\
+  //|------+------+------+------+------+------|                |------+------+------+------+------+------|
+      XXXXX,  PSLS,  PAST,  PMNS,  PPLS, XXXXX,                     P1,    P2,    P3,   TAB, XXXXX, XXXXX,\
+  //|------+------+------+------+------+------+------|  |------+------+------+------+------+------+------|
+                                  XXXXX, XXXXX, XXXXX,   XXXXX,     P0,  PDOT \
                               //`--------------------'  `--------------------'
   ),
 
   [_ADJUST] = LAYOUT_kc( \
   //,-----------------------------------------.                ,-----------------------------------------.
-        RST,  LRST, XXXXX, XXXXX, XXXXX, XXXXX,                  XXXXX, XXXXX, XXXXX, XXXXX, XXXXX, XXXXX,\
+      XXXXX,    F1,    F2,    F3,    F4,    F5,                     F6,    F7,    F8,    F9,   F10, XXXXX,\
   //|------+------+------+------+------+------|                |------+------+------+------+------+------|
-       LTOG,  LHUI,  LSAI,  LVAI, XXXXX, XXXXX,                  XXXXX, XXXXX, XXXXX, XXXXX, XXXXX, XXXXX,\
+      XXXXX,  LRST,  LHUI,  LSAI,  LVAI,  LSPI,                    CAD,   CSE, XXXXX,   F11,   F12, XXXXX,\
   //|------+------+------+------+------+------|                |------+------+------+------+------+------|
-       LMOD,  LHUD,  LSAD,  LVAD, XXXXX, XXXXX,                  XXXXX, XXXXX, XXXXX, XXXXX, XXXXX, XXXXX,\
+      XXXXX,  LMOD,  LHUD,  LSAD,  LVAD,  LSPD,                  XXXXX, XXXXX,RGB_TOG,CAPSLOCK,NUMLOCK, XXXXX,\
   //|------+------+------+------+------+------+------|  |------+------+------+------+------+------+------|
-                                  GUIEI, LOWER,   SPC,      ENT, RAISE, ALTKN \
+                                  XXXXX, XXXXX, XXXXX,   XXXXX, XXXXX, XXXXX \
                               //`--------------------'  `--------------------'
   )
 };
@@ -243,6 +248,58 @@ bool process_record_user(uint16_t keycode, keyrecord_t *record) {
         }
       #endif
       break;
+
+//custom keycodes
+//tbd current the shifted key can only be entered once and then shift needs to be released
+//future version should allow for multiple shifted keypresses
+    case COMMA_SCOLON: // ;(w/ shift) or ,
+      if (record->event.pressed) {
+        if (keyboard_report->mods & MOD_BIT (KC_LSFT)) {
+          clear_mods();
+          tap_code(KC_SCOLON);
+        } else {
+          tap_code(KC_COMMA);
+        }
+      } else {
+        clear_keyboard();
+      }
+      return false;
+      break;
+	  
+    case DOT_COLON: // :(w/ shift) or .
+      if (record->event.pressed) {
+        if (keyboard_report->mods & MOD_BIT (KC_LSFT)) {
+          tap_code(KC_SCOLON);
+        } else {
+          tap_code(KC_DOT);
+        }
+      } else {
+        clear_keyboard();
+      }
+      return false;
+      break;
+	  
+    case QUES_EXCL: // !(w/ shift) or ?
+      if (record->event.pressed) {
+        if (keyboard_report->mods & MOD_BIT (KC_LSFT)) {
+          clear_mods();
+          register_code(KC_LSFT);
+          register_code(KC_1);
+          unregister_code(KC_1);
+          unregister_code(KC_LSFT);
+        } else {
+          clear_mods();
+          register_code(KC_LSFT);
+          register_code(KC_SLASH);
+          unregister_code(KC_SLASH);
+          unregister_code(KC_LSFT);
+        }
+      } else {
+        clear_keyboard();
+      }
+      return false;
+      break;
+//end custom keycodes
   }
   return true;
 }
