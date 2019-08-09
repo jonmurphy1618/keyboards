@@ -1,6 +1,6 @@
 [
   {
-    "name": "Port-O-Murph"
+    "name": "keymap"
   },
   [
     {
@@ -182,19 +182,23 @@
     ""
   ],
   [
-    "F11",
-    "F12",
-    "",
-    "",
-    "",
     {
-      "x": 2
+      "a": 5
+    },
+    "\nreset\n\n\n\n\nled",
+    "\nhu+\n\n\n\n\nled",
+    "\nsa+\n\n\n\n\nled",
+    "\nbri+\n\n\n\n\nled",
+    "\nsp+\n\n\n\n\nled",
+    {
+      "x": 2,
+      "a": 7
     },
     "cad",
     "cse",
     "",
-    "",
-    "",
+    "F11",
+    "F12",
     {
       "x": 1
     },
@@ -213,13 +217,17 @@
     ""
   ],
   [
-    "led",
-    "",
-    "",
-    "",
-    "",
+    {
+      "a": 5
+    },
+    "\nmod\n\n\n\n\nled",
+    "\nhu-\n\n\n\n\nled",
+    "\nsa-\n\n\n\n\nled",
+    "\nbri-\n\n\n\n\nled",
+    "\nsp-\n\n\n\n\nled",
     {
       "c": "#0000ff",
+      "a": 7,
       "h": 2
     },
     "",
@@ -233,7 +241,7 @@
     },
     "",
     "",
-    "",
+    "led",
     "caps",
     "nums",
     {
@@ -283,7 +291,12 @@
       "x": 2,
       "c": "#cccccc"
     },
-    "0\n\n\n\n&uArr;",
+    "0",
+    {
+      "fa": [
+        8
+      ]
+    },
     "."
   ]
 ]
