@@ -15,3 +15,4 @@ rev5 version created and sold by OLKB
 - [keyboard layout editor](http://www.keyboard-layout-editor.com/#/)
 - [qmk docs](https://docs.qmk.fm/)
 - [Default Keymap](https://github.com/qmk/qmk_firmware/tree/master/keyboards/planck/keymaps/default)
+- [QMK Tutorial](https://thomasbaart.nl/category/mechanical-keyboards/firmware/qmk/qmk-basics/)
