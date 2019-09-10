@@ -4,7 +4,7 @@
 - [Artisan Cap Casting](#artisan-cap-casting)
 
 ## Planck Build
-![Photo TBD](./planck/photo.jpg)
+![Photo](./planck/photo.jpg)
 - [Slim Tiger Bocote Wood Case](https://imgur.com/a/taMeYja) by [/u/justinyhuang](https://old.reddit.com/u/justinyhuang) :star::star::star::star::star: ($110)
 - OLKB Planck v5 ($40)
 - OLKB Brass Top Plate ($20)
@@ -12,9 +12,8 @@
 - R8 Zealencio Clips ($45)
 - 1.8mm Golden Yellow LED w/ Zeal SIP Sockets ($30)
 - Texas Tea Fugu & Texas Tea Bomb King by [/u/Eat_the_food](https://old.reddit.com/user/eat_the_food) :star::star::star::star::star:
-- Custom Brass Braid USB Cable by me :star::star::star:
-- TBD Brass Homing Caps by [Salvun](https://instagram.com/salvun/)
-- TBD MX lock switch
+- Custom Brass Braid USB Cable by me :star::star:
+- Brass Bead Blasted DSA Homing Caps by [Salvun](https://instagram.com/salvun/) :star::star::star::star::star: ($90)
 
 #### References
 - [Keymap](./planck/)  
