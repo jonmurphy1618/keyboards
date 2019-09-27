@@ -14,6 +14,8 @@
 - Texas Tea Fugu & Texas Tea Bomb King by [/u/Eat_the_food](https://old.reddit.com/user/eat_the_food) :star::star::star::star::star:
 - Custom Brass Braid USB Cable by me :star::star:
 - Brass Bead Blasted DSA Homing Caps by [Salvun](https://instagram.com/salvun/) :star::star::star::star::star: ($90)
+- 2U Spacebar by Keysekai :thumbsdown:
+
 
 #### References
 - [Keymap](./planck/)  
