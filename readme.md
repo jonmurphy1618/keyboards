@@ -19,7 +19,8 @@
 
 #### References
 - [Keymap](./planck/)  
-- [QMK Plank Link](https://github.com/qmk/qmk_firmware/tree/master/keyboards/planck)  
+- [QMK Plank Link](https://github.com/qmk/qmk_firmware/tree/master/keyboards/planck)
+- [keybr](https://www.keybr.com/profile/j2ho45b)
 
 ## Crkbd Build
 ![Photo TBD](./crkbd/photo.jpg)
