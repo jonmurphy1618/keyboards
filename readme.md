@@ -35,7 +35,11 @@
 - PCB Assembly Service by [/u/agent6078](https://old.reddit.com/user/agent6078) :star::star::star::star::star: ($25)
 - [NovelKeys](https://novelkeys.xyz/) Black Choc Keycaps ($15)
 - AliExpress Clear Choc keycaps ($16)
-- TBD standoffs, acrylic plates, feet
+- Clear Acrylic 3mm Top and Bottom Plate ($25)
+  - [Template by foostan](https://github.com/foostan/crkbd/tree/master/plates/chocolate)
+  - Top Plate would work better as 2.5mm
+- Black Plastic M2 5mm screw, 5mm spacer, 8mm spacer ($6)
+- Rubber Feet 10mm x 2mm ($2)
 
 #### References
 - [Keymap](./crkbd/)
